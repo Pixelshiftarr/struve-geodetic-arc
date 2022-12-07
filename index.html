@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <base target="_top">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        
+        <title>Struve Geodetic Arc</title>
+
+        <!-- leaflet.css -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+
+        <!-- leaflet.legend.css -->
+        <link rel="stylesheet" href="css/leaflet.legend.css" />
+
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+  
+    <body>
+        <header>
+            <div class="title">
+                <h1>Struve Geodetic Arc</h1>
+                <h2>UNESCO World Heritage</h2>
+            </div>
+
+            <nav>
+                <button id="toggle-data" class="toggle-button" onclick="toggleData(this);">Hide All Data</button>
+            </nav>
+        </header>
+
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+
+        <footer>
+            <p>Made with <span class="heart">&hearts;</span> in Vienna</p>
+            <p>&copy; Elisabeth Pieringer 2022</p>
+        </footer>
+
+        <!-- leaflet.js -->
+        <script type="text/javascript" src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+        <!-- leaflet.legend.js -->
+        <script type="text/javascript" src="js/leaflet.legend.js"></script>
+
+        <!-- Main JavaScript -->
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,304 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Open Sans', Calibri, sans-serif;
+    color: #171717;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+    background-color: #fafafa;
+    height: 100%;
+}
+
+body {
+    border: 0px solid lime;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 40px;
+}
+
+/* Header */
+
+header {
+    border: 0px solid orange;
+    margin-top: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+}
+
+@media (min-width: 680px){
+    header {
+        margin-top: 6%;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: initial;
+            -ms-flex-align: initial;
+                align-items: initial;
+        text-align: left;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
+    }
+}
+
+.title h1,
+.title h2 {
+    font-family: 'Comfortaa', 'Open Sans', Calibri, sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 6px;
+}
+
+h2 {
+    color: gray;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* Buttons */
+
+nav {
+    margin-top: 15px;
+}
+
+button {
+    background-color: #171717;
+    border: 0;
+    border-radius: 50px;
+    font-size: 9pt;
+    font-weight: 600;
+    color: #fafafa;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+
+.off {
+    background-color: #add19e;
+}
+
+/* Toggle Data */
+
+#toggle-data {
+    width: 110px;
+}
+
+.toggle-button:link,
+.toggle-button:visited,
+.toggle-button.off,
+.toggle-button.off:link,
+.toggle-button.off:visited {
+    -webkit-transition: background-color 0.45s;
+    -o-transition: background-color 0.45s;
+    transition: background-color 0.45s;
+}
+
+.toggle-button:hover,
+.toggle-button:active {
+    background-color: #424242;
+    -webkit-transition: background-color 0.45s;
+    -o-transition: background-color 0.45s;
+    transition: background-color 0.45s;
+}
+
+.toggle-button.off:hover,
+.toggle-button.off:active {
+    background-color: #83b56e;
+    -webkit-transition: background-color 0.45s;
+    -o-transition: background-color 0.45s;
+    transition: background-color 0.45s;
+}
+
+/* Leaflet Area */
+
+.map-container {
+    border: 0px solid #171717;
+    border-radius: 3px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto; /* sticky footer */
+    margin-bottom: 3%;
+}
+
+#map { 
+    border-radius: 3px;
+    font-size: 8pt;
+    width: 100%;
+    height: 100%;
+}
+
+/* Leaflet Attribution */
+
+.leaflet-container .leaflet-control-attribution {
+    background-color: #fafafa;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+.leaflet-container .leaflet-control-attribution a {
+    color: #4c8693;
+}
+
+/* Leaflet Scale Bar */
+
+.leaflet-control-scale.leaflet-control {
+    margin-bottom: 0;
+}
+
+.leaflet-control-scale-line {
+    background: none;
+    border-color: #171717;
+    border-width: 0 2px 2px 2px;
+    border-radius: 0 0 3px 3px;
+    font-weight: 600;
+    text-shadow: none;
+    text-align: center;
+}
+
+/* Leaflet Legend */
+
+.legend {
+    background-color: #fafafa;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+            box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+    padding: 10px;
+}
+
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+h4:first-child {
+    margin-top: 0;
+}
+
+h4:last-child {
+    margin-bottom: 0;
+}
+
+/* Leaflet topleft */
+
+.leaflet-top.leaflet-left > .leaflet-control-zoom > a,
+.leaflet-top.leaflet-left > .leaflet-control-layers > a,
+.leaflet-control-layers {
+    margin-bottom: 5px;
+    background-color: #fafafa;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+            box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.1);
+    border: 0;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar {
+    border: 0;
+}
+
+/* Leaflet Layer Control */
+
+.leaflet-control-layers.leaflet-control {
+    margin-top: 0;
+}
+
+.leaflet-touch .leaflet-control-layers-toggle,
+.leaflet-retina .leaflet-control-layers-toggle {
+    background-image: url(../icons/map_icon_layers.svg);
+    background-size: 18px 18px;
+    width: 30px;
+    height: 30px;
+}
+
+.leaflet-control-layers-expanded {
+    border-radius: 15px 3px 3px 3px;
+    width: auto;
+    height: auto;
+}
+
+/* Footer */
+
+footer {
+    border:0px solid seagreen;
+    font-size: 8pt;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 4px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0; /* sticky footer */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 5px;
+}
+
+@media (min-width: 680px){
+    footer {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between
+    }
+}
+
+footer p {
+    color: grey;  
+}
+
+footer .heart {
+    color: #e3a6a6;
+}
