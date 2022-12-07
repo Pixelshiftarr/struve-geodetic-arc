@@ -14,7 +14,7 @@ First ever web mapping project. Visualisation of the 34 triangulation points of 
 - Country shape files: [Datahub.io](https://datahub.io/core/geo-countries#resource-countries) (based on original data from [Natural Earth](https://www.naturalearthdata.com/))
 - Map: [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors
 
-## 8 Layers:
+## Layers:
 
 - Triangulation points, sorted by the type of marking:
   - Engraved cross mark (eg. in stone)
