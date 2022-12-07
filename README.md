@@ -4,8 +4,8 @@ First ever web mapping project. Visualisation of the 34 triangulation points of 
 
 ## Libraries used:
 
-- [leaflet.js] (https://leafletjs.com/)
-- [leaflet.legend.js] (https://github.com/ptma/Leaflet.Legend)
+- [leaflet.js](https://leafletjs.com/)
+- [leaflet.legend.js](https://github.com/ptma/Leaflet.Legend)
 
 ## Layers:
 
