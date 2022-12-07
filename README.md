@@ -7,6 +7,7 @@ First ever web mapping project. Visualisation of the 34 triangulation points of 
 - [leaflet.js](https://leafletjs.com/)
 - [leaflet.legend.js](https://github.com/ptma/Leaflet.Legend)
 - [geojson.io](https://geojson.io)
+- [Leaflet Provider Demo](https://leaflet-extras.github.io/leaflet-providers/preview/)
 
 ## Data sources:
 
@@ -23,7 +24,7 @@ First ever web mapping project. Visualisation of the 34 triangulation points of 
   - Monument
   - Tower
   - No data available
-- Longitude through the Observatory of the University of Tartu, Estonia
+- Longitude through the Observatory of the University of Tartu, Estonia.
 - Involved countries (Norway, Finland, Sweden, Russian Federation, Estonia, Latvia, Lithuania, Belarus, Moldova and Ukraine.
 
 
