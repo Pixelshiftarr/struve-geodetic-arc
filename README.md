@@ -1,5 +1,8 @@
 # Struve Geodetic Arc
 
+First ever web mapping project. Visualisation of the 34 triangulation points of the Struve geodesic arc, which are since 2005 part of the <a href="https://whc.unesco.org/en/list/1187/" rel="UNESCO World Heritage">demo</a>. 
+
+
 ## Libraries used:
 
 - leaflet.js
