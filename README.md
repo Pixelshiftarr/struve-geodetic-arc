@@ -1,21 +1,21 @@
 # Struve Geodetic Arc
 
-First ever web mapping project. Visualisation of the 34 triangulation points of the Struve geodetic arc, which have been part of the <a href="https://whc.unesco.org/en/list/1187/" rel="nofollow">UNESCO World Heritage</a> since 2005.
+First ever web mapping project. Visualisation of the 34 triangulation points of the Struve Geodetic Arc, which have been part of the [UNESCO World Heritage](https://whc.unesco.org/en/list/1187/) since 2005.
 
 ## Libraries used:
 
-- leaflet.js
+- leaflet.js 
 - leaflet.legend.js
 
 ## Layers:
 
 - Triangulation points, sorted by the type of marking:
--     Engraved cross mark (eg. in stone)
--     Drilled or digged hole
--     Cairn
--     Monument
--     Tower
--     No data available
+  - Engraved cross mark (eg. in stone)
+  - Drilled or digged hole
+  - Cairn
+  - Monument
+  - Tower
+  - No data available
 - Longitude through the Observatory of the University of Tartu, Estonia
 - Involved countries (Norway, Finland, Sweden, Russian Federation, Estonia, Latvia, Lithuania, Belarus, Moldova and Ukraine.
 
