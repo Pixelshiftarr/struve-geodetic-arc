@@ -9,8 +9,6 @@ First ever web mapping project. Visualisation of the 34 triangulation points of 
 - [leaflet.providers.js preview](https://leaflet-extras.github.io/leaflet-providers/preview/)
 - [geojson.io](https://geojson.io)
 
-- [leaflet.providers.js preview](https://leaflet-extras.github.io/leaflet-providers/preview/)
-
 ## Data sources:
 
 - Coordinates & information: [UNESCO World Heritage](https://whc.unesco.org/en/list/1187/maps)
