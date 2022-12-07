@@ -6,8 +6,10 @@ First ever web mapping project. Visualisation of the 34 triangulation points of 
 
 - [leaflet.js](https://leafletjs.com/)
 - [leaflet.legend.js](https://github.com/ptma/Leaflet.Legend)
+- [leaflet.providers.js preview](https://leaflet-extras.github.io/leaflet-providers/preview/)
 - [geojson.io](https://geojson.io)
-- [leaflet-providers.js preview](https://leaflet-extras.github.io/leaflet-providers/preview/)
+
+- [leaflet.providers.js preview](https://leaflet-extras.github.io/leaflet-providers/preview/)
 
 ## Data sources:
 
