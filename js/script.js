@@ -685,7 +685,7 @@ layerTest.getAttribution = function() {
 };
 
 
-// LAYER: COUNTRIES =======================================================
+// LAYER: COUNTRIES ======================================================
 
 
 var layerCountries = L.geoJSON();
@@ -722,7 +722,7 @@ var longitudeTartu = new L.Polyline(
 	}
 ).bindPopup('<b>Longitude</b> through the Tartu Observatory, Estonia.').addTo(layerGeoLines);
 
-// LAYER: TRIANGULATION POINTS BY COUNTRY ============================================
+// LAYER: TRIANGULATION POINTS BY COUNTRY =================================
 
 
 var layerTriPoints = L.geoJSON();
@@ -774,7 +774,7 @@ layerTriPoints.getAttribution = function() {
 }).addTo(layerTriPoints);*/
 
 
-// LAYERs: TRIANGULATION POINTS ===========================================
+// LAYERs: TRIANGULATION POINTS ==========================================
 
 
 var layerTriPoints_CrossMark = L.geoJSON();
